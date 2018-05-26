@@ -1,0 +1,6 @@
+gem install minitest-rails
+Add minitest to Gemfile
+bundle install
+rails g minitest:install
+rails g scaffold widget name:string
+rails g scaffold item name:string --no-spec
